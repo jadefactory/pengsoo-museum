@@ -13,15 +13,6 @@ a {
 }
 
 /* Background Video */
-.video-frame:before {
-  content: '';
-  background: linear-gradient(-135deg, #fff9db, transparent);
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-}
 .video-frame video {
   position: fixed;
   min-width: 100%;
